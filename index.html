@@ -13,25 +13,26 @@
             <select id="origem">
                 <option value="2">Binário</option>
                 <option value="8">Octal</option>
-                <option value="10">Decimal</option>
+                <option value="10" selected>Decimal</option>
                 <option value="16">Hexadecimal</option>
             </select>
 
             <button id="trocar">Trocar</button>
 
             <select id="destino">
-                <option value="2">Binário</option>
+                <option value="2" selected>Binário</option>
                 <option value="8">Octal</option>
                 <option value="10">Decimal</option>
                 <option value="16">Hexadecimal</option>
             </select>
         </div>
         <div class="container-input">
-            <input id="valor-origem" type="text" placeholder="Digite o número que será convertido">
-            <input id="valor-destino" type="text" placeholder="Resultado da conversão" readonly>
+            <input id="valorOrigem" type="text" placeholder="Digite o número que será convertido">
+            <input id="valorDestino" type="text" placeholder="Resultado da conversão" readonly>
         </div>
-        <button id="conversor" class="btn">Converter</button>
+        <button id="converte" class="btn">Converter</button>
         
     </div>    
+    <script src="js/script.js"></script>
 </body>
 </html>
