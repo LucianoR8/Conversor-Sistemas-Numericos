@@ -23,14 +23,19 @@
 #origem, #destino{
     width: 22vh;
     height: 4vh;
-    border: 2px solid blue;
+    border: 2px solid gray;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
 }
 
 #trocar{
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    color: blue;
 }
 
 .container-input{
@@ -38,13 +43,29 @@
 }
 
 .entrada, .saida{
-    height: 5vh;
+    height: 15vh;
     width: 25vh;
     border-radius: 15px;
-    text-align: center;
-    border: 1px solid gray;
+    color: black;
+    text-align: left;
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    font-size: 24px;
+    padding: 5px 5px 5px 10px;
+    resize: none;
+}
+
+.saida{
+    background-color: gainsboro;
 }
 
 .btn{
     margin-top: 10px;
+    border: 1px solid rgb(8, 148, 230);
+    font-size: 20px;
+    color: white;
+    background-color: rgb(8, 148, 230);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px;
 }

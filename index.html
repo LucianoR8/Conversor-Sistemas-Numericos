@@ -6,6 +6,7 @@
     <title>Conversor Binário</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
     <div class="container-titulo">
@@ -20,7 +21,7 @@
                 <option value="16">Hexadecimal</option>
             </select>
 
-            <button id="trocar">Trocar</button>
+            <button id="trocar"><i class="bi bi-arrow-left-right"></i></button>
 
             <select id="destino">
                 <option value="2" selected>Binário</option>
@@ -30,8 +31,8 @@
             </select>
         </div>
         <div class="container-input">
-            <input class="entrada" id="valorOrigem" type="text" placeholder="Digite o número que será convertido">
-            <input class="saida" id="valorDestino" type="text" placeholder="Resultado da conversão" readonly>
+            <textarea class="entrada" id="valorOrigem" type="text" placeholder="Número"></textarea>
+            <textarea class="saida" id="valorDestino" type="text" placeholder="Conversão" readonly></textarea>
         </div>
         <button id="converte" class="btn">Converter</button>
         
