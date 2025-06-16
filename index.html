@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor Binário</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-    <h1>Conversor de sistemas númericos</h1>
-    <div>
+    <div class="container-titulo">
+        <h1 class="titulo">Conversor de sistemas númericos</h1>
+    </div>
+    <div class="container-conversor">
         <div class="container-opc">
             <select id="origem">
                 <option value="2">Binário</option>
@@ -27,8 +30,8 @@
             </select>
         </div>
         <div class="container-input">
-            <input id="valorOrigem" type="text" placeholder="Digite o número que será convertido">
-            <input id="valorDestino" type="text" placeholder="Resultado da conversão" readonly>
+            <input class="entrada" id="valorOrigem" type="text" placeholder="Digite o número que será convertido">
+            <input class="saida" id="valorDestino" type="text" placeholder="Resultado da conversão" readonly>
         </div>
         <button id="converte" class="btn">Converter</button>
         

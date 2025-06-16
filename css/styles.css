@@ -1,0 +1,50 @@
+.container-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.container-conversor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-opc{   
+     margin-top: 60px;
+}
+
+#origem, #destino{
+    width: 22vh;
+    height: 4vh;
+    border: 2px solid blue;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#trocar{
+    border: none;
+    cursor: pointer;
+}
+
+.container-input{
+    margin-top: 10px;
+}
+
+.entrada, .saida{
+    height: 5vh;
+    width: 25vh;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.btn{
+    margin-top: 10px;
+}
