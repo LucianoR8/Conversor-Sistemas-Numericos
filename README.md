@@ -22,8 +22,8 @@
 
 ### Como usar:
 
-  -Clone/Baixe o repositório;
-  -Abra o arquivo "index.html".
+ - Clone/Baixe o repositório;
+ - Abra o arquivo "index.html".
 
   ---
 
