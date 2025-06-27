@@ -15,8 +15,8 @@
 
 ### Funcionalidades:
 
- - Conversão entre números de diferentes sistemas;
- - Troca de bases através de um botão.
+ - Conversão entre diferentes sistemas númericos(Binário, Octal, Decimal e Hexadecimal);
+ - Troca da base selecionada pela de destino.
 
 ---
 
@@ -25,6 +25,6 @@
  - Clone/Baixe o repositório;
  - Abra o arquivo "index.html".
 
-  ---
+---
 
   Feito por Luciano Ribeiro (https://github.com/LucianoR8)
