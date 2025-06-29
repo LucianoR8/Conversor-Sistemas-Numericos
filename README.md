@@ -6,16 +6,17 @@
 
 ### Para o desenvolvimento do projeto foram utilizadas as seguintes tecnologias:
 
+ - VS Code(Editor de código).
  - HTML5;
  - CSS3;
- - JavaScript;
- - Visual Studio Code.
+ - JavaScript.
+ 
    
 ---
 
 ### Funcionalidades:
 
- - Conversão entre diferentes sistemas númericos(Binário, Octal, Decimal e Hexadecimal);
+ - Conversão entre diferentes sistemas númericos como o binário, octal, decimal e hexadecimal;
  - Troca da base selecionada pela de destino.
 
 ---
