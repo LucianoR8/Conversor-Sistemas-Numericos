@@ -6,7 +6,7 @@
 
 ### Para o desenvolvimento do projeto foram utilizadas as seguintes tecnologias:
 
- - VS Code(Editor de código).
+ - VS Code.
  - HTML5;
  - CSS3;
  - JavaScript.
@@ -14,17 +14,11 @@
    
 ---
 
-### Funcionalidades:
-
- - Conversão entre diferentes sistemas númericos como o binário, octal, decimal e hexadecimal;
- - Troca da base selecionada pela de destino.
-
----
 
 ### Como usar:
 
  - Clone/Baixe o repositório;
- - Abra o arquivo "index.html".
+ - Execute arquivo index.html.
 
 ---
 
