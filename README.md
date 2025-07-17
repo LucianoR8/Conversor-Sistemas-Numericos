@@ -1,6 +1,6 @@
 # Conversor de Sistemas Númericos
 
-## Essa aplicação tem como o intuito de forncer a possibilidade de converter números de diferentes sistemas númericos, como Binários, Octais, Decimais(Tradicional) e Hexadecimais.
+## Essa aplicação tem como o intuito de forncer a possibilidade de converter números de diferentes sistemas númericos.
 
 ---
 
@@ -13,6 +13,13 @@
  
    
 ---
+
+## Sistemas númericos:
+
+ - Binário;
+ - Octal;
+ - Decimal;
+ - Hexadecimal.
 
 
 ### Como usar:
